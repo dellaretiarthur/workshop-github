@@ -1,6 +1,11 @@
+# meu programa inicia aqui 
+
 name = input("Digite o seu nome: ")
-age = input("Digite a sua idade: ")
+age = int(input("Digite a sua idade: "))
 
+if age >= 18:
+    print(f"Bem vindo; {name.capitalize()} e você tem {age} anos")
+else:
+    print(f"Infelizmente não pode entrar, jovem {name.capitalize()}")
 
-
-print(f"Bem vindo; {name.capitalize()} e você tem {age} anos")
+#fim do programa
